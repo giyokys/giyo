@@ -1,0 +1,255 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+  .baricon{
+    float: right;
+    color: white;
+    font-size: 30px;
+    display: none;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+  header{
+   width: 100%;
+    min-height: 120px;
+    background-color: #FFD9A2 /*#F15B3B*/;
+    border-top: 2px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  .img_overlay{
+    height: 0;
+    width: 100%;
+    background-color: rgb(255,255,255,0.5);
+    overflow: hidden;
+    transition: 0.5s ease;
+    position: absolute;
+  }
+  .img_wrap{
+    height: 150px;
+    width: 150px;
+    padding: 10px 0 0 10px;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+  }
+  .img_wrap_p{
+   text-align: center;
+   margin-top: 70px;
+  }
+  header h1{
+  font-family: Sofia;
+    color: white;
+    font-size: 40px;
+    float: left;
+    margin-top: 25px;
+  }
+  header nav ul{
+  list-style-type: none;
+  }
+  header #nav-ul li{
+    float: left;
+    padding: 0 20px 0 0;
+    color: white;
+    font-size: 20px;
+  }
+  header #nav-ul li a{
+  color: white;
+    text-decoration: none;
+    font-family: Century Gothic;
+    font-size: 20px;
+  }
+  header #nav-ul li a:hover{
+  font-weight: bold;
+  }
+  header nav{
+    float: right;
+    margin-top: 50px;
+  }
+  .current_tab{
+    font-weight: bold;
+  }
+  header #responsive-nav{
+    list-style-type: none;
+    width: 100%;
+    background: #FFD9A2;
+    margin-top: 120px;
+    border-top: 1px solid white;
+    display: none;
+  }
+  #responsive-nav li{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+  }
+  #responsive-nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 20px;
+  }
+  #responsive-nav li a:hover{
+    font-weight: bold;
+  }
+  #showcase{
+  min-height: 400px;
+    width: 100%;
+    background: url('https://i.pinimg.com/originals/14/ab/e3/14abe37902a925657d6f4586337ee1e5.jpg') 0 -200px;
+    text-align: center;
+    display: flex;
+    flex-direction: vertical;
+    justify-content: center;
+  }
+  #showcase h1{
+    font-family: Sofia;
+    font-size: 50px;
+    color: white;
+  }
+  #showcase p{
+  color: white;
+    font-family: Century Gothic;
+  }
+  #gallery{
+    padding-top: 25px;
+    text-align: center;
+    display: block;
+    min-height: 400px;
+  }
+  #gallery h1{
+    font-family: Sofia;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  #img_wrap1:hover #img_overlay1{
+   height: 100%;
+  }
+  #img_wrap2:hover #img_overlay2{
+    height: 100%;
+  }
+  #img_wrap3:hover #img_overlay3{
+    height: 100%;
+  }
+  #img_wrap4:hover #img_overlay4{
+    height: 100%;
+  }
+  #img_wrap5:hover #img_overlay5{
+    height: 100%;
+  }
+  #img_wrap6:hover #img_overlay6{
+    height: 100%;
+  }
+  #img_wrap7:hover #img_overlay7{
+    height: 100%;
+  }
+  #img_wrap8:hover #img_overlay8{
+    height: 100%;
+  }
+  #img_wrap9:hover #img_overlay9{
+    height: 100%;
+  }
+  #img_wrap10:hover #img_overlay10{
+    height: 100%;
+  }
+  #featured-posts{
+    min-height: 400px;
+    text-align: center;
+  }
+  #list_posts li{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+    height: 300px;
+    width: 200px;
+  }
+  #featured-posts h1{
+    font-family: Sofia;
+    font-size: 30px;
+  }
+  #featured-posts{
+    padding-top: 20px;
+  }
+  #featured-posts h2{
+    font-family: Century Gothic;
+  }
+  #header_hr{
+    border-color: #FFD9A2;
+  }
+  #subscribe{
+    text-align: center;
+    background: url('https://www.pixelstalk.net/wp-content/uploads/2014/12/Field-of-Flowers-hd-wallpapers.jpg') 0 -1100px;
+    min-height: 150px;
+    padding-top: 30px;
+  }
+  input[type="email"]{
+    display: block;
+   margin: auto;
+    width: 260px;
+    margin-top: 5px;
+    border: none;
+    height: 20px;
+      font-family: Century Gothic;
+  border-radius: 4px;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
+  input[type="name"]{
+    width: 260px;
+      border: none;
+    height: 20px;
+      font-family: Century Gothic;
+  border-radius: 4px;
+    padding-left: 5px;
+    box-sizing: border-box;
+  }
+  #subscribe h3{
+    font-family: Sofia;
+    color: white;
+  }
+  .button{
+    width: 260px;
+    background: #FFD9A2;
+    font-family: Century Gothic;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  footer{
+   min-height: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: vertical;
+    justify-content: center;
+    background-color: #FFD9A2;
+  }
+  footer h2{
+    font-family: Sofia;
+    color: white;
+  }
+  @media(max-width: 1000px){
+    #featured-posts li{
+      display: block;
+      margin: auto;
+      margin-top: 40px;
+    }
+    #featured-posts{
+      padding-bottom: 30px;
+    }
+  }
+  @media(max-width: 768px){
+    header nav{
+      display: none;
+    }
+    .baricon{
+      display: inline-block;
+    }
+  }
+  
